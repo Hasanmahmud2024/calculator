@@ -11,7 +11,7 @@
       <div id="calculator">
         <input type="text" name="display" id="display" placeholder="0" readonly />
         
-        <button type="button" id="clear" onclick="resetDisplay()">AC</button>
+        <button type="button" id="clear" class="span2" onclick="resetDisplay()">AC</button>
         <button type="button" id="deleteLast" onclick="deleteLast()">DEL</button>
         <button type="button" id="operator" onclick="operate('/')">/</button>
 
@@ -30,9 +30,9 @@
         <button type="button" id="number" onclick="displayNumber(3)">3</button>
         <button type="button" id="operator" onclick="operate('+')">+</button>
 
-        <button type="button" id="number" onclick="displayNumber(0)">0</button>
+        <button type="button" id="number" class="span2" onclick="displayNumber(0)">0</button>
 
-        <button type="button" id="equals" onclick="calculate()">=</button>
+        <button type="button" id="equals" class="span2" onclick="calculate()">=</button>
       </div>
     </main>
     <script src="scripts.js"></script>
